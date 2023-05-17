@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>high quality aluminium doors & window frames</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="./css/mdb.min.css">
+  <!-- Custom styles -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <?php require_once 'includes/contact-form-validate.php' ?>
+
+</head>
+
+<body>
+  <!-- Start Header -->
+  <?php require_once 'includes/header.php'; ?>
+  <!-- End Header-->
+
+
+  <!-- Carousel wrapper -->
+  <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
+      <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
+      <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
+    </ol>
+
+    <!-- Inner -->
+    <div class="carousel-inner">
+      <!-- Single item -->
+      <div class="carousel-item active">
+        <div class="mask">
+          <div class="d-flex justify-content-center align-items-bottom h-100">
+            <div class="text-white text-center">
+              <a class="btn btn-outline-light btn-lg" href="#contact-form" role="button" rel="nofollow">Request a quote</a>
+              <!--
+                  <a
+                    class="btn btn-outline-light btn-lg m-2"
+                    href="https://mdbootstrap.com/docs/standard/"
+                    target="_blank"
+                    role="button"
+                    >Download MDB UI KIT</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Single item -->
+      <div class="carousel-item">
+        <div class="mask">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="text-white text-center">
+              <a class="btn btn-outline-light btn-lg" href="about.php" role="button" style="width:135%">
+                About us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Single item -->
+      <div class="carousel-item">
+        <div class="mask">
+          <div class="d-flex justify-content-center align-items-bottom h-100">
+            <div class="text-white text-center">
+              <a class="btn btn-outline-light btn-lg" href="about.php" role="button">Learn
+                about us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Inner -->
+
+    <!-- Controls -->
+    <a class="carousel-control-prev" href="#introCarousel" role="button" data-mdb-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a class="carousel-control-next" href="#introCarousel" role="button" data-mdb-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+  </div>
+  <!-- Carousel wrapper -->
+
+
+  <!--Main layout-->
+  <main class="mt-5">
+    <div class="container" id="more-info">
+      <!--Section: Content-->
+      <!--Section: Content-->
+      <hr class="my-5" />
+      <!--Section: Content-->
+      <section class="text-center">
+        <h4 class="p-header mb-5"><strong>Products</strong></h4>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="pexels new door.jpg" />
+                <a href="more-info-1.php">
+                  <div class="mask" style="background-color: rgba(271, 271, 271, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title" style="text-transform: uppercase;"> Aluminium Doors</h5>
+                <p class="card-text">
+                  Look at some of our Doors
+                </p>
+                <p>
+                </p>
+                <a href="more-info-1.php" class="btn btn-primary">More Info</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="pexels window1.jpg" />
+                <a href="more-info-1.php">
+                  <div class="mask" style="background-color: rgba(271, 271, 271, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title" style="text-transform: uppercase;">Aluminium Window Frames</h5>
+                <p class="card-text">
+                  Look at some of our Window Frames
+                </p>
+                <a href="windows.php" class="btn btn-primary">More Info</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="security.jpg" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(271, 271, 271, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title" style="text-transform: uppercase;">Security Solutions</h5>
+                <p class="card-text">
+                  Look at some of our Security Solutions
+                </p>
+                <a href="sec-solution.php" class="btn btn-primary">More Info</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Section: Content-->
+
+
+        <!--Section: Contact v.2-->
+        <section class="mb-4">
+          <hr class="my-5" />
+
+          <!--Section heading-->
+          <h2 class="p-header">Contact us</h2>
+          <!--Section description-->
+          <h6 class="text-center w-responsive mx-auto mb-5">Do you have any questions? *Please do not hesitate to contact us
+            directly. Our team will come back to you within
+            a matter of hours to help you.</h6>
+
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+              <!--Grid row-->
+              <div class="row">
+                <!-- 2 column grid layout with text inputs for the firstand last names-->
+                <form method="POST" id="contact-form" name="contact-form">
+                  <div class="row">
+                    <!-- 2 column grid layout with text inputs for the firstand last names-->
+                    <div class="col names">
+                      <div class="form-outline mb-4 g-3 needs-validation novalidate" id="bootstrap-overrides">
+                        <input type="text" name="name" id="name" class="form-control success" autocomplete="off" />
+                        <label class="form-label" for="name">First name</label>
+                      </div>
+                      <div class="error mb-1.5"> <small></small></div>
+                    </div>
+                    <!-- last name input field -->
+
+                    <div class="col names">
+                      <div class="form-outline mb-4">
+                        <input type="text" class="form-control success" name="last" id="last" autocomplete="off" />
+                        <label class="form-label" for="last">Last name</label>
+                      </div>
+                      <div class="error mb-1.5"> <small></small></div>
+                    </div>
+                  </div>
+                  <!--Email input-->
+                  <div class="form-text others">
+                    <div class="form-outline mb-4">
+                          <input type="email" id="email" name="email" class="form-control success" autocomplete="off" />
+                          <label class="form-label" for="email">Email</label>
+                        </div>
+                        <div class="error"><small></small></div>
+                  </div>
+                  <!--Subject input field-->
+                  <div class="form-text others">
+                    <div class="form-outline mb-4">
+                      <input type="text" id="subject" name="subject" class="form-control success" autocomplete="off" />
+                      <label class="form-label" for="subject">Subject</label>
+                    </div>
+                    <div class="error"> <small></small> </div>
+                  </div>
+                  <!--Message input-->
+                  <div class="form-text others">
+                    <div class="form-outline mb-4">
+                      <textarea class="form-control" name="message" id="message" rows="3" autocomplete="off"></textarea>
+                      <label class="form-label" for="message">Your message</label>
+                    </div>
+                    <div class="error"><small></small></div>
+                  </div>
+                  <!--Button input-->
+                  <div class="form-field">
+                    <input type="submit" class="btn-submit" id="submit" value="Send Message">
+                  </div>
+                  <p style="color: red; margin-top:2.5rem">
+                    <?php echo ((!empty($errorMessage)) ? $errorMessage : ''); ?>
+                  </p>
+                </form>
+              </div>
+
+            </div>
+            <!--Grid column-->
+            <div class="col-md-3 text-center">
+              <ul class="list-unstyled mt-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>South Africa, GP 954, RSA</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>+ 27 79 476 0626</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>sales@lminiumdesigns.co.za</p>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+        </section>
+        <!--Section: Contact END -->
+  </main>
+
+  <!-- Start footer -->
+  <?php require_once 'includes/footer.php'; ?>
+  <!-- End footer-->
+
+  <!-- Custom scripts -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+
+  <script type="text/javascript">
+    const nameElement    = document.querySelector('#name')
+    const lastElement    = document.querySelector('#last')
+    const emailEement    = document.querySelector('#email')
+    const subjectElement = document.querySelector('#subject')
+    const messageElement = document.querySelector('#message')
+
+
+    const angry = String.fromCodePoint(0x1F608);
+
+    const form = document.querySelector('#contact-form');
+
+    const isRequired = value => value === '' ? false : true;
+
+    isBetween = (length, min, max) => length < min || length > max ? false : true;
+
+    const isEmailValid = (email) => {
+      const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(email);
+    };
+
+    const showError = (input, message) => {
+      // get the form-field element
+ 
+           const formField = input.parentElement.parentElement;
+        
+          // add the error class
+          formField.classList.remove('success');
+          formField.classList.add('error');
+
+
+          input.parentElement.classList.remove('mb-4');
+          input.parentElement.classList.add('mb-1');
+
+
+          // show the error message
+          const error = formField.querySelector('small');
+          error.textContent = message;
+
+    
+    };
+
+    const showSuccess = (input) => {
+      // get the form-field element
+      const formField = input.parentElement.parentElement;
+
+      // remove the error class
+      formField.classList.remove('error');
+      formField.classList.add('success');
+
+      // 
+      input.parentElement.classList.remove('mb-1');
+      input.parentElement.classList.add('mb-4');
+
+      
+      const error = formField.querySelector('small');
+      error.textContent = '';
+      }
+
+      ////////////////////
+      const showOtherErrors = (input, message) => {
+      // get the form-field element
+ 
+           const formField = input.parentElement.parentElement;
+        
+           formField.classList.add('mb-1')
+          // add the error class
+          formField.classList.remove('successOther');
+          formField.classList.add('errorOther');
+
+          input.parentElement.classList.remove('mb-4');
+          input.parentElement.classList.add('mb-1');
+          // show the error message
+          const error = formField.querySelector('small');
+          error.textContent = message;
+
+    };
+   ///////////////////////////
+   const showOtherSuccess= (input) => {
+       // get the form-field element
+       const formField = input.parentElement.parentElement;
+
+
+       // remove the error class
+        formField.classList.remove('errorOther');
+       formField.classList.add('successOther');
+
+       input.parentElement.classList.remove('mb-1');
+       input.parentElement.classList.add('mb-4');
+
+      // hide the error message
+       const error = formField.querySelector('small');
+       error.textContent = '';
+      }
+
+      const ValidateNames = () => {
+      let valid = false;
+      const min = 5,
+      max = 27;
+
+      const name = nameElement.value.trim();
+
+      if (!isRequired(name)) {
+        showError(nameElement, '*Username cannot be blank.'+ angry);
+      }
+      else if (!isBetween(name.length, min, max)) {
+        showError(nameElement, `*Enter between ${min} - ${max} characters`)
+      } else {
+        showSuccess(nameElement);
+        valid = true;
+      }
+      return valid;
+    };
+
+    const ValidateLastname = () => {
+      let valid = false;
+      const min = 5,
+      max = 27;
+
+      const lastname = lastElement.value.trim();
+
+      if (!isRequired(lastname)) {
+        showError(lastElement, '*Last name cannot be blank.'+angry);
+      }
+      else if (!isBetween(lastname.length, min, max)) {
+        showError(lastElement, `*enter between ${min} - ${max} characters`)
+      } else {
+        showSuccess(lastElement);
+        valid = true;
+      }
+      return valid;
+    };
+
+    const ValidateSubject = () => {
+      let valid = false;
+      const min = 20,
+      max = 50;
+
+      const sub = subjectElement.value.trim();
+
+      if (!isRequired(sub)) {
+        showOtherErrors(subjectElement, '*Please enter your subject.'+angry);
+      }
+      else if (!isBetween(subjectElement.length, min, max)) {
+        showOtherErrors(subjectElement, `*Subject must be between ${min} - ${max} characters`)
+      } else {
+        showOtherSuccess(subjectElement);
+        valid = true;
+      }
+      return valid;
+    };
+
+
+
+    const ValidateMessage = () => {
+      let valid = false;
+      const min = 20,
+      max = 50;
+
+      const msg = messageElement.value.trim();
+
+      if (!isRequired(msg)) {
+        showOtherErrors(messageElement, '**Please enter your message.'+angry);
+      }
+      else if (!isBetween(messageElement.length, min, max)) {
+        showOtherErrors(messageElement, `*Message must be between ${min} - ${max} characters`)
+      } else {
+        showOtherSuccess(messageElement);
+        valid = true;
+      }
+      return valid;
+    };
+
+    const checkEmail = () => {
+      let valid = false;
+      const email = emailEement.value.trim();
+      if (!isRequired(email)) {
+        showOtherErrors(emailEement, '*Email cannot be blank.' + angry);
+      } else if (!isEmailValid(email)) {
+        showOtherErrors(emailEement, '*Email is not valid.'+angry)
+      } else {
+        showOtherSuccess(emailEement);
+        valid = true;
+      }
+      return valid;
+    };
+
+    const listener = function (e) {
+          e.preventDefault();
+      };
+
+    form.addEventListener('submit', function(e)
+    {
+      // prevent the form from submitting //
+      
+
+      // validate fields
+      let isUsernameValid = ValidateNames(),
+        isEmailValid = checkEmail()
+
+      let isvalidsub = ValidateSubject();
+      let isvalidmsg = ValidateMessage();
+      
+
+      let isFormValid = isUsernameValid &&
+        isEmailValid && isvalidsub && isvalidmsg;
+
+      // submit to the server if the form is valid
+      if (isFormValid) {
+            document.getElementById('contact-form').action = "./send-email.php";
+            
+        }
+      else
+      {
+        e.preventDefault()
+        document.getElementById("submit").addEventListener("submit", function(event){
+            event.preventDefault()
+        alert("Not Sent")
+      });
+      }
+    });
+
+
+
+    const debounce = (fn, delay = 500) => {
+      let timeoutId;
+      return (...args) => {
+        // cancel the previous timer
+        if (timeoutId) {
+          clearTimeout(timeoutId);
+        }
+        // setup a new timer
+        timeoutId = setTimeout(() => {
+          fn.apply(null, args)
+        }, delay);
+      };
+    };
+
+    form.addEventListener('input', debounce(function(e) {
+      switch (e.target.id) {
+        case 'name':
+          ValidateNames();
+          break;
+        case 'last':
+          ValidateLastname();
+          break;
+        case 'email':
+          checkEmail();
+          break;
+        case 'subject':
+          ValidateSubject();
+          break;
+        case 'message':
+          ValidateMessage();
+          break;
+      }
+    }));
+  </script>
+
+
+</body>
+
+</html>
